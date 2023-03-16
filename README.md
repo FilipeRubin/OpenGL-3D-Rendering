@@ -1,6 +1,6 @@
 # OpenGL 3D Project
 
-This is an OpenGL application that can load and display assets, transform 3D geometry and control a camera.
+This is an OpenGL application that can load and display assets, transform 3D geometry and control a camera. All of the assets were made by me.
 
 # Features
 - 3D free camera
@@ -29,7 +29,7 @@ This is an OpenGL application that can load and display assets, transform 3D geo
 ### Transparency
 ![Transparency](Images/transparency.png)
 
-### Framebuffer texture
+### Framebuffer texture (taken from another iteration of the application)
 ![FBTexture](Images/framebuffer.png)
 
 # How to run and compile
