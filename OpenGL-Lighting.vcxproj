@@ -174,7 +174,6 @@
     <ClCompile Include="Source\Render\RenderingList.cpp" />
     <ClCompile Include="Source\Render\RenderingItem.cpp" />
     <ClCompile Include="Source\Render\Skybox.cpp" />
-    <ClCompile Include="Source\Shader\Class\NoShading.cpp" />
     <ClCompile Include="Source\Shader\Class\PhongShading.cpp" />
     <ClCompile Include="Source\Shader\Material\PhongMaterial.cpp" />
     <ClCompile Include="Source\Shader\Material\Texture.cpp" />
@@ -222,14 +221,7 @@
       <SubType>
       </SubType>
     </ClInclude>
-    <ClInclude Include="Source\Shader\Class\NoShading.hpp">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="Source\Shader\Class\PhongShading.hpp">
-      <SubType>
-      </SubType>
-    </ClInclude>
+    <ClInclude Include="Source\Shader\Class\PhongShading.hpp" />
     <ClInclude Include="Source\Shader\Material\PhongMaterial.hpp" />
     <ClInclude Include="Source\Shader\Material\Texture.hpp">
       <SubType>
