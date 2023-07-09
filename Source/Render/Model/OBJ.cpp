@@ -3,7 +3,7 @@
 #include <iostream>
 #include "glm/gtc/type_ptr.hpp"
 
-static struct TexVertex
+struct TexVertex
 {
 	float  x, y, z;
 	float nx, ny, nz;
@@ -74,10 +74,7 @@ void OBJ::LoadPositions(std::ifstream& file, GLfloat* positions)
 		int elemIndex = 0;
 
 		char posBuffer[3][10];
-		for (int i = 0; i < 3; i++)
-		{
-			memset(posBuffer, 0, 30); // Sets all bytes to zero
-		}
+		memset(posBuffer, 0, 30); // Sets all bytes to zero
 
 		for (int i = 2; i < line.size(); i++)
 		{
@@ -112,10 +109,7 @@ void OBJ::LoadNormals(std::ifstream& file, GLfloat* normals)
 		int elemIndex = 0;
 
 		char normalBuffer[3][10];
-		for (int i = 0; i < 3; i++)
-		{
-			memset(normalBuffer, 0, 30);
-		}
+		memset(normalBuffer, 0, 30);
 
 		for (int i = 3; i < line.size(); i++)
 		{
@@ -150,10 +144,7 @@ void OBJ::LoadUVs(std::ifstream& file, GLfloat* uvs)
 		int elemIndex = 0;
 
 		char uvBuffer[2][10];
-		for (int i = 0; i < 3; i++)
-		{
-			memset(uvBuffer, 0, 20);
-		}
+		memset(uvBuffer, 0, 20);
 
 		for (int i = 3; i < line.size(); i++)
 		{
