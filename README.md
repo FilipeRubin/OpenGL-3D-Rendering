@@ -29,7 +29,7 @@ This is an OpenGL application that can load and display assets, transform 3D geo
 ### Transparency
 ![Transparency](Images/transparency.png)
 
-### Framebuffer texture (taken from another iteration of the application)
+### Framebuffer texture (taken from another version of the application)
 ![FBTexture](Images/framebuffer.png)
 
 # How to run and compile
